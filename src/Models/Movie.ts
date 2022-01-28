@@ -1,7 +1,7 @@
 export class Movie { 
-    movieId: number; 
-    movieName: string;
-    movieSynopsis: string; 
-    movieReleaseYear: string;
-    movieCurrentlyInTheaters: string;
+    movieId: number = 0; 
+    movieName: string = "";
+    movieSynopsis: string = ""; 
+    movieReleaseYear: number = 0;
+    movieCurrentlyInTheaters: string = "";
 }

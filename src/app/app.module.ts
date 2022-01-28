@@ -10,13 +10,15 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { MoviesService } from './movies.service';
+import { MoviesComponent } from './components/movies/movies.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule,

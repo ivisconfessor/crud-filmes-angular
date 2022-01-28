@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-import { Movie } from './../Models/Movie';
+import { Movie } from '../models/Movie';
 
 const httpOptions = {
   headers: new HttpHeaders({
