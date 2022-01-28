@@ -3,5 +3,5 @@ export class Movie {
     movieName: string = "";
     movieSynopsis: string = ""; 
     movieReleaseYear: number = 0;
-    movieCurrentlyInTheaters: string = "";
+    movieCurrentlyInTheaters: boolean = false;
 }
