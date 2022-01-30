@@ -22,7 +22,7 @@
             <tbody>
                 <tr *ngFor="let movie of movies">
                     <td class="col-xs-3 col-sm-3 col-md-3 col-lg-3">{{ movie.movieName }}</td>
-                    <td class="col-xs-4 col-sm-4 col-md-4 col-lg-4">{{ movie.movieSynopsis.substring(0,100) }}</td>
+                    <td class="col-xs-4 col-sm-4 col-md-4 col-lg-4">{{ movie.movieSynopsis.substring(0,100) + "..." }}</td>
                     <td class="col-xs-1 col-sm-1 col-md-1 col-lg-1">{{ movie.movieReleaseYear }}</td>
                     <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">{{ movie.movieCurrentlyInTheaters }}</td>
                     <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
