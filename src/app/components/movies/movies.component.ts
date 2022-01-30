@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 
 import { Movie } from '../../models/Movie';
 import { MoviesService } from './../../movies.service';
@@ -15,11 +16,15 @@ export class MoviesComponent implements OnInit {
   titleForm: string = "";
   form: any;
   movies: Movie[] = [];
+  movieId: number = 0;
+  movieName: string = "";
 
   visibilityTable: boolean = true;
   visibilityForm: boolean = false;
 
-  constructor(private moviesService: MoviesService) { }
+  modalRef: any;
+
+  constructor(private moviesService: MoviesService, private modalService: BsModalService) { }
 
   ngOnInit(): void {
 
@@ -64,6 +69,12 @@ export class MoviesComponent implements OnInit {
     this.visibilityForm = false;
   }
 
+  OpenModalConfirmDelete(movieId: number, movieName: string, contentModal: TemplateRef<any>): void {
+    this.modalRef = this.modalService.show(contentModal);
+    this.movieId = movieId;
+    this.movieName = movieName;
+  }
+
   sendForm(): void{
     const movie: Movie = this.form.value;
 
@@ -98,5 +109,19 @@ export class MoviesComponent implements OnInit {
     }
 
     console.log(movie);
+  }
+
+  deleteMovie(movieId: number){
+    console.log(movieId);
+
+    this.moviesService.DeleteMovie(movieId).subscribe(resultDelete => {
+      this.modalRef.hide();
+
+      alert("Filme excluído com Sucesso!");
+      
+      this.moviesService.GetAll().subscribe(resultMovies => {
+        this.movies = resultMovies;
+      });
+    });
   }
 }

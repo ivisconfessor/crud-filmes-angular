@@ -27,7 +27,7 @@
                     <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">{{ movie.movieCurrentlyInTheaters }}</td>
                     <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                         <button type="button" class="btn btn-sm btn-outline-info" (click)="showFormUpdate(movie.movieId)">Atualizar</button>|
-                        <button type="button" class="btn btn-sm btn-outline-danger">Excluir</button>
+                        <button type="button" class="btn btn-sm btn-outline-danger" (click)="OpenModalConfirmDelete(movie.movieId, movie.movieName, contentModal)">Excluir</button>
                     </td>
                 </tr>
             </tbody>
@@ -85,3 +85,20 @@
         </div>
     </div>
 </div>
+
+<ng-template #contentModal>
+    <div class="modal-header">
+      <h4 class="modal-title pull-left">Confirmação de Exclusão</h4>
+      <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+        <span aria-hidden="true" class="visually-hidden">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      Prosseguir com a exclusão do filme {{ movieName }}?
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-light" (click)="modalRef.hide()">Não</button>
+        <button type="button" class="btn btn-outline-danger" (click)="deleteMovie(movieId)">Sim</button>
+    </div>
+</ng-template>
