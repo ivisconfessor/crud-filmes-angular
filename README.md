@@ -16,6 +16,14 @@
 
 <hr />
 
+
+
+## 🧑🏽‍💻 O Projeto:
+<p align="center">
+    Neste projeto desenvolvi um Crud em Angular 13.
+    <br />
+    No lado back-end foi construida uma API .NET (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local).
+</p>
 <div align="center">
     <strong>**OBS:</strong> 
     <p>
@@ -25,16 +33,7 @@
     </p>
 </div>
 
-
-<p align="center">
-    Neste projeto desenvolvi um Crud em Angular 13.
-    <br />
-    No lado back-end foi construida uma API .NET (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local), segue abaixo o link para acesso ao repositório da API:
-    <br />
-    <strong>
-        <a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a>
-    </strong>
-</p>
+<hr />
 
 ## 💻 Demostração:
 <div align="center">
@@ -44,9 +43,22 @@
 
 <hr />
 
+## :octocat: Clone API | Teste Funcional da Aplicação:
 <div align="center">
+    <p>
+        Para testar o funcionamento da aplicação, atualmente é necessário realizar o clone da API e seguir os passos abaixo: 
+        (**Obs: Como foi dito na sessão acima O Projeto, a API responsável por manipular os dados dos filmes não está hospedada. É necessário ter uma instância de uma base local SQL Server para armazenamento dos dados)
+        1. Realizar o Clone da API (link do repositório abaixo) 
+        <strong>
+            <a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a>
+        </strong>
+        2. Rodar o comando de Entity Framework (dotnet -ef database update)
+        3. Executar a aplicação com o comando: dotnet run (Obs. rodar a aplicação na porta 7016)
+    </p>
+</div>
 
 ## 🚀 Tecnologias usadas:
+<div align="center">
 
 ✔️ Angular 13
 
