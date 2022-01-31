@@ -1,27 +1,61 @@
-# CrudFilmesAngular
+<h1 align="center">
+<br>
+    <img 
+        src="https://w7.pngwing.com/pngs/879/420/png-transparent-film-video-production-television-graphy-cine-miscellaneous-label-photographic-film.png" 
+        alt="Crud Angular | Filmes" 
+        width="120"
+    />
+<br>
+Crud Angular | Filmes
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+<p align="center">
+    Clique no link a seguir para acessar a aplicação: 
+    <strong><a href="https://crud-filmes-angular.vercel.app/movies" target="_blank">crud-filmes-angular.vercel.app/movies</a></strong>
+    <br />
+    **OBS: A aplicação front-end Angular está hospedada em um servidor da Vercel, porém a API consumida pelo front não está hospedada,
+    por este motivo ao abrir a aplicação não será possível realizar as operações de CRUD da aplicação, para isto é necessário fazer o clone do projeto da API, e executar localmente. 
+</p>
 
-## Development server
+<p align="center">
+    Neste projeto desenvolvi um Crud em Angular 13.
+    <br />
+    No lado back-end foi construida uma API .NET (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local), segue abaixo o link para acesso ao repositório da API:
+    <br />
+    <strong>
+        <a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a>
+    </strong>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<div align="center">
+    <img src="./github-readme/CrudFilmesAngular.gif"
+    alt="demo-web" height="425" />
+</div>
 
-## Code scaffolding
+<hr />
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<div align="center">
 
-## Build
+## 🚀 Tecnologias usadas:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+✔️ Angular 13
 
-## Running unit tests
+✔️ Node / NPM / Angular CLI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+✔️ TypeScript
 
-## Running end-to-end tests
+✔️ JavaScript
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+✔️ HTML
 
-## Further help
+✔️ CSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+✔️ Bootstrap
+
+</div>
+
+<hr />
+
+<div align="center">
+    Feito com <span role="img" aria-label="coração">❤️</span> por <strong><a href="https://github.com/ivisconfessor">Ivís Confessor</a></strong> 
+</div>
