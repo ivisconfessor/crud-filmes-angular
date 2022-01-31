@@ -26,7 +26,9 @@
                         {{ movie.movieSynopsis.length > 100 ? movie.movieSynopsis.substring(0,100) + "..." : movie.movieSynopsis }}
                     </td>
                     <td class="col-xs-1 col-sm-1 col-md-1 col-lg-1">{{ movie.movieReleaseYear }}</td>
-                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">{{ movie.movieCurrentlyInTheaters }}</td>
+                    <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <i [ngClass]="movie.movieCurrentlyInTheaters == true ? 'bi bi-check-circle' : 'bi bi-x-circle'"></i>
+                    </td>
                     <td class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
                         <button type="button" class="btn btn-sm btn-outline-info" (click)="showFormUpdate(movie.movieId)">Atualizar</button>|
                         <button type="button" class="btn btn-sm btn-outline-danger" (click)="OpenModalConfirmDelete(movie.movieId, movie.movieName, contentModal)">Excluir</button>
