@@ -1,21 +1,30 @@
 <h1 align="center">
-<br>
-    <img 
-        src="https://freepikpsd.com/file/2019/10/filmes-png-4-Transparent-Images-Free.png" 
-        alt="Crud Angular | Filmes" 
-        width="120"
-    />
-<br>
-Crud Angular | Filmes
+    <br />
+        <img 
+            src="./github-readme/video.png"
+            alt="Crud Angular | Filmes" 
+            width="120" 
+        />
+    <br />
+    Crud Angular | Filmes
 </h1>
 
 <p align="center">
     Clique no link a seguir para acessar a aplicação: 
     <strong><a href="https://crud-filmes-angular.vercel.app/movies" target="_blank">crud-filmes-angular.vercel.app/movies</a></strong>
-    <br />
-    **OBS: A aplicação front-end Angular está hospedada em um servidor da Vercel, porém a API consumida pelo front não está hospedada,
-    por este motivo ao abrir a aplicação não será possível realizar as operações de CRUD da aplicação, para isto é necessário fazer o clone do projeto da API, e executar localmente. 
 </p>
+
+<hr />
+
+<div align="center">
+    <strong>**OBS:</strong> 
+    <p>
+        A aplicação front-end Angular está hospedada em um servidor Vercel, porém a API consumida pelo front não está hospedada (atualmente),
+        por este motivo ao acessar a aplicação não será possível realizar as operações de CRUD (para ver o funcionamento da aplicação 
+        veja abaixo a sessão Demostração). 
+    </p>
+</div>
+
 
 <p align="center">
     Neste projeto desenvolvi um Crud em Angular 13.
@@ -27,6 +36,7 @@ Crud Angular | Filmes
     </strong>
 </p>
 
+## 💻 Demostração:
 <div align="center">
     <img src="./github-readme/CrudFilmesAngular.gif"
     alt="demo-web" height="425" />
