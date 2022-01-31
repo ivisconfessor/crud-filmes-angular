@@ -22,7 +22,7 @@
 <p align="center">
     Neste projeto desenvolvi um Crud em Angular 13.
     <br />
-    No lado back-end foi construida uma API .NET (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local).
+    No lado back-end foi construida uma API .NET Core (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local).
 </p>
 <div align="center">
     <strong>**OBS:</strong> 
@@ -47,13 +47,19 @@
 <div align="center">
     <p>
         Para testar o funcionamento da aplicação, atualmente é necessário realizar o clone da API e seguir os passos abaixo: 
-        (**Obs: Como foi dito na sessão acima O Projeto, a API responsável por manipular os dados dos filmes não está hospedada. É necessário ter uma instância de uma base local SQL Server para armazenamento dos dados)
+        <br />
         1. Realizar o Clone da API (link do repositório abaixo) 
         <strong>
             <a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a>
         </strong>
         2. Rodar o comando de Entity Framework (dotnet -ef database update)
+        <br />
         3. Executar a aplicação com o comando: dotnet run (Obs. rodar a aplicação na porta 7016)
+    </p>
+<div>
+<div align="center">
+    <p>
+        (**Obs: Como foi dito na sessão acima O Projeto, a API responsável por manipular os dados dos filmes não está hospedada. É necessário ter uma instância de uma base local SQL Server para armazenamento dos dados).
     </p>
 </div>
 
