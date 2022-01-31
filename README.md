@@ -16,8 +16,6 @@
 
 <hr />
 
-
-
 ## 🧑🏽‍💻 O Projeto:
 <p align="center">
     Neste projeto desenvolvi um Crud em Angular 13.
@@ -64,6 +62,8 @@
         Como foi dito na sessão acima <strong>O Projeto</strong>, a API responsável por manipular os dados dos filmes não está hospedada. Além de ser necessário ter o Runtime do .NET instaldo em sua máquina, também é necessário ter uma instância de uma base local SQL Server para armazenamento dos dados.
     </p>
 </div>
+
+<hr />
 
 ## 🚀 Tecnologias usadas:
 <div align="center">
