@@ -28,8 +28,8 @@
     <strong>**OBS:</strong> 
     <p>
         A aplicação front-end Angular está hospedada em um servidor Vercel, porém a API consumida pelo front não está hospedada (atualmente),
-        por este motivo ao acessar a aplicação não será possível realizar as operações de CRUD (para ver o funcionamento da aplicação 
-        veja abaixo a sessão Demostração). 
+        por este motivo ao acessar a aplicação não será possível realizar as operações de CRUD. (para ver o funcionamento da aplicação 
+        veja abaixo a sessão <strong>Demostração</strong>). 
     </p>
 </div>
 
@@ -61,7 +61,7 @@
 <div align="center">
     <strong>**OBS:</strong> 
     <p>
-        Como foi dito na sessão acima O Projeto, a API responsável por manipular os dados dos filmes não está hospedada. Além de ser necessário ter o Runtime do .NET instaldo em sua máquine, também é necessário ter uma instância de uma base local SQL Server para armazenamento dos dados).
+        Como foi dito na sessão acima <strong>O Projeto</strong>, a API responsável por manipular os dados dos filmes não está hospedada. Além de ser necessário ter o Runtime do .NET instaldo em sua máquina, também é necessário ter uma instância de uma base local SQL Server para armazenamento dos dados.
     </p>
 </div>
 
