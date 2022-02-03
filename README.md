@@ -18,18 +18,10 @@
 
 ## 🧑🏽‍💻 O Projeto:
 <p align="center">
-    Neste projeto desenvolvi um Crud em Angular 13.
+    Neste projeto desenvolvi um Crud em Angular 13, atualmente hospedada em um servidor da Vercel.
     <br />
-    No lado back-end foi construida uma API .NET Core (atualmente localhost) que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (atualmente local).
+    No lado back-end foi construida uma API .NET Core que serve os dados para a aplicação front-end Angular, estes dados são salvos em uma base SQL Server (ambos hospeados em nuvem da Azure).
 </p>
-<div align="center">
-    <strong>**OBS:</strong> 
-    <p>
-        A aplicação front-end Angular está hospedada em um servidor Vercel, porém a API consumida pelo front não está hospedada (atualmente),
-        por este motivo ao acessar a aplicação não será possível realizar as operações de CRUD. (para ver o funcionamento da aplicação 
-        veja abaixo a sessão <strong>Demostração</strong>). 
-    </p>
-</div>
 
 <hr />
 
@@ -41,27 +33,16 @@
 
 <hr />
 
-## :octocat: Clone API | Teste Funcional da Aplicação:
+## :octocat: Clone API
 <div align="center">
     <p>
-        Para testar o funcionamento da aplicação atualmente é necessário realizar o clone da API e seguir os passos abaixo: 
+        Segue abaixo link do reposiótio da API de Filmes em ASP.NET Core, responsável por fornecer os dados consumidos pelo front Angular. 
         <br />
-        <br />
-        1. Realizar o Clone da API (link do repositório: <strong><a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a></strong>) 
-        <br />
-        <br />
-        2. Rodar o comando de Entity Framework (dotnet -ef database update)
-        <br />
-        <br />
-        3. Executar a aplicação com o comando: dotnet run (Obs. rodar a aplicação na porta 7016)
+        <strong>
+            <a href="https://github.com/ivisconfessor/crud-filmes-api-aspnetcore" target="_blank">https://github.com/ivisconfessor/crud-filmes-api-aspnetcore</a>
+        </strong>
     </p>
 <div>
-<div align="center">
-    <strong>**OBS:</strong> 
-    <p>
-        Como foi dito na sessão acima <strong>O Projeto</strong>, a API responsável por manipular os dados dos filmes não está hospedada. Além de ser necessário ter o Runtime do .NET instaldo em sua máquina, também é necessário ter uma instância de uma base local SQL Server para armazenamento dos dados.
-    </p>
-</div>
 
 <hr />
 
