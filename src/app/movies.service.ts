@@ -14,7 +14,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class MoviesService {
-  url = 'https://crud-filmes-api-aspnetcore.scm.azurewebsites.net/api/movies';
+  url = 'https://crud-filmes-api-aspnetcore.azurewebsites.net/api/movies';
 
   constructor(private http: HttpClient) { }
 
